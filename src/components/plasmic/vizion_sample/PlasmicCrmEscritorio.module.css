@@ -1,0 +1,48 @@
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  min-height: 0;
+}
+.appShell:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__mn8Ai {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  margin-left: 20px;
+  min-height: 0;
+  padding: 0px;
+}
+.freeBox___3XxXc {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 8px;
+  min-height: 0;
+  padding: 0px;
+}

@@ -1,0 +1,41 @@
+.mainContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  max-width: 100%;
+  background: var(--token-jgohepLVeKvh);
+  cursor: default;
+  border-radius: 4px;
+  padding: 0px 8px;
+  border: 1px solid var(--token-Pxe4wDL2kJpb);
+}
+.text {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+}
+.skeleton:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  width: 22px;
+  height: 20px;
+  flex-shrink: 0;
+}
